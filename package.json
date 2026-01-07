@@ -1,0 +1,40 @@
+{
+  "name": "koa-static-server",
+  "version": "1.0.0",
+  "description": "A Koa2 static file server for frontend resources",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "node dist/src/app.js",
+    "dev": "nodemon --exec ts-node src/app.ts",
+    "build": "tsc",
+    "start:prod": "npm run build && node dist/src/app.js",
+    "dev:ts": "nodemon --exec ts-node src/app.ts",
+    "build:ts": "tsc -p tsconfig.json",
+    "watch": "nodemon --exec ts-node src/app.ts"
+  },
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^14.0.0",
+    "koa-static": "^5.0.0",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.6",
+    "@types/koa-bodyparser": "^4.3.13",
+    "@types/koa-router": "^7.4.9",
+    "@types/koa-static": "^4.0.4",
+    "@types/node": "^25.0.3",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [
+    "koa",
+    "static",
+    "server",
+    "frontend"
+  ],
+  "author": "",
+  "license": "ISC"
+}
