@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`对象快照 1`] = `
+{
+  "createdAt": 2026-01-16T01:01:10.336Z,
+  "id": 15,
+  "name": "LeBron James",
+}
+`;

@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "my test",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest -u",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "zhangtch",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
